@@ -2,6 +2,7 @@ import json
 import os
 import sys
 
+
 ARQUIVO = "tarefas.json"
 
 
@@ -56,3 +57,5 @@ if __name__ == "__main__":
         remove(int(sys.argv[2]))
     else:
         print("uso: add / list / done N / remove N")
+
+
