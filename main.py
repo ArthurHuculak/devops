@@ -2,6 +2,7 @@ import json
 import os
 import sys
 
+
 ARQUIVO = "tarefas.json"
 
 
